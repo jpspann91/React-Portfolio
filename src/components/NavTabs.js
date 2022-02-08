@@ -7,7 +7,7 @@ import logo from '../Assets/logo.gif';
 // import { Link } from 'react-router-dom';
 
 import {
-    AiFillContacts,
+    AiOutlineContacts,
     AiOutlineHome,
     AiOutlineFundProjectionScreen,
     AiOutlineUser,
@@ -60,7 +60,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     onClick={() => handlePageChange('Contact')}
                     className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                 >
-                    <AiFillContacts/>Contact
+                    <AiOutlineContacts/>Contact
                 </a>
             </li>
         </ul>

@@ -12,7 +12,7 @@ const typeWriterStrings = [
 function Type(){
     return(
         <Typewriter
-            className='typewriter'
+            className='typewrite'
             options={{
             strings: typeWriterStrings, 
             autoStart: true,
