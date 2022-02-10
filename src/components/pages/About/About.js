@@ -1,14 +1,19 @@
 import React from 'react';
 import AboutCard from './AboutCard';
 import Github from './Github';
-import TechStack from './Techstack'
+import TechStack from './Techstack';
+import Tools from './Tools';
+const aboutPic = require('../../../Assets/about.png') 
 
 export default function About() {
   return (
     <div className='container'>
-      <h1>About PAGE</h1>
+      
       <div className='row about-card'>
+      <img src={aboutPic} alt='computer science stuff' className='img-fluid'/>
+      <h1>Get to Know Me</h1>
         <AboutCard/>
+        
       </div>
       
       <div className='row github'>
@@ -18,7 +23,11 @@ export default function About() {
       <div className='row'>
         <TechStack/>
       </div>
-      <div className='row'></div>
+      <h1>Tools I Use</h1>
+      <div className='row'>
+        <Tools/>
+      
+      </div>
       
     </div>
   );

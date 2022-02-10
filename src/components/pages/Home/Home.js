@@ -1,5 +1,5 @@
 import React from 'react';
-import Typewriter from './TypeWriter'
+import Typewriter from 'typewriter-effect'
 import homeLogo from '../../../Assets/homepage.png'
 import homepageBg from '../../../Assets/homepage-bg.jpg';
 import profilePicture from '../../../Assets/joespann.jpg';
@@ -10,12 +10,24 @@ const styles = {
   backgroundImage: `url(${homepageBg})`,
   backgroundPosition: 'fixed',
   backgroundSize: 'cover',
-  backgroundRepeat: 'repeat',
+  overflow: 'hidden',
+  backgroundAttachment: 'fixed',
   width: '100vw',
   height: '100vh',
 }
 
+const typeWriterStrings = [
+  'Junior Software Developer',
+  "MERN Stack Developer",
+  'IT Apprentice',
+  'Customer Service Specialist',
+  'Nak Muay'
+]
 
+const languageStrings = [
+  'Javascript', 'HTML', 'CSS',
+  'Java', 'C++', 'MYSQL'
+]
 
 export default function Home() {
   return (
@@ -28,18 +40,27 @@ export default function Home() {
               My Name is <p className='myName' style={{ color: 'red' }}>Joseph Spann</p>
             </h1>
 
-
-            <Typewriter style={{textColor: 'red'}}/>
+            <p style={{ color: 'coral' }}>
+              <Typewriter
+                className='typewrite'
+                options={{
+                  strings: typeWriterStrings,
+                  autoStart: true,
+                  loop: true,
+                  deleteSpeed: 65,
+                  cursor: '🥊'
+                }} />
+            </p>
           </div>
 
           <div className='col fluid'>
-            <img src={homeLogo} alt='homepage logo' className='img-fluid' style={{ marginLeft: '200px' }} />
+            <img src={homeLogo} alt='homepage logo' className='img-fluid' style={{ marginLeft: '700px', float: 'right', objectFit: 'contain' }} />
           </div>
         </div>
         <div className='row intro-sentence'>
-          <div className='col-4'>
+          <div className='col-3'>
             <Tilt>
-              <img src={profilePicture} className="img-fluid profilePic" alt="myself" width='50%' height='25px'/>
+              <img src={profilePicture} className="img-fluid profilePic" alt="myself" style={{ objectFit: '' }} />
             </Tilt>
 
           </div>
@@ -50,19 +71,20 @@ export default function Home() {
 
               <br />
               <br />
-              I am fluent in the basic like {" "}
+              I have experience coding with {" "}
               <i>
                 <b style={{ color: 'coral' }}>
-                  Javascript, HTML, CSS.
+                  <Typewriter style={{ textColor: 'red' }}
+                    className='typewrite'
+                    options={{
+                      strings: languageStrings,
+                      autoStart: true,
+                      loop: true,
+                      deleteSpeed: 65,
+                      cursor: '🖥️'
+                    }} />
                 </b>
               </i>
-              I also have some experience with {" "}
-              <i>
-                <b style={{ color: 'goldenrod' }}>
-                  MYSQL, Java, and C++.
-                </b>
-              </i>
-              <br />
               <br />
               <i>
                 <p>
@@ -72,7 +94,6 @@ export default function Home() {
               <i>
                 <p>I enjoy building dependable applications with moder frameworks such as <span style={{ color: 'coral' }}>Express.js, Node.js, React.js </span> and many other frameworks</p>
               </i>
-
             </p>
           </div>
         </div>
