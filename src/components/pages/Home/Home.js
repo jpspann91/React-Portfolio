@@ -4,6 +4,12 @@ import homeLogo from '../../../Assets/homepage.png'
 import homepageBg from '../../../Assets/homepage-bg.jpg';
 import profilePicture from '../../../Assets/joespann.jpg';
 import Tilt from "react-parallax-tilt";
+import {shake} from 'react-animations';
+import styled, {keyframes} from 'styled-components';
+
+// const bounceShake = merge(bounce, shake)
+const Shake = styled.div`animation: 2s ${keyframes `${shake}`} infinite`
+
 
 const styles = {
   color: 'white',
@@ -33,10 +39,12 @@ export default function Home() {
   return (
     <section style={styles}>
       <div className='container-fluid d-flex flex-row flex-wrap'>
-        <div className='row fluid'>
-          <div className='col'>
+        <div className='row fluid d-flex-flex-row' style={{position:'relative'}}>
+          <div className='col-8'>
             <h1>Hi there!
+              <Shake>
               <span className='wave' role='img' aria-labelledby='wave'>👋🏻</span>
+              </Shake>
               My Name is <p className='myName' style={{ color: 'red' }}>Joseph Spann</p>
             </h1>
 
@@ -53,8 +61,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className='col fluid'>
-            <img src={homeLogo} alt='homepage logo' className='img-fluid' style={{ marginLeft: '700px', float: 'right', objectFit: 'contain' }} />
+          <div className='col-4 fluid flex'>
+            <img src={homeLogo} alt='homepage logo' className='img-fluid' style={{ position:'absolute', float: 'right'}} />
           </div>
         </div>
         <div className='row intro-sentence'>

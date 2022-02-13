@@ -12,7 +12,7 @@ function Footer() {
     let date = new Date();
     let year = date.getFullYear();
     return (
-        <footer className='container footer' style={{backgroundColor: 'tomato'}}>
+        <footer className='container-fluid footer' style={{backgroundColor: 'tomato', width: '100%'}}>
             <div className='row'>
                 <div className='col-6'>
                     <h3>Designed and Developed by Joseph Spann</h3>

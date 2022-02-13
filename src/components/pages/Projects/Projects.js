@@ -14,12 +14,12 @@ import workdayPlanner from '../../../Assets/ProjectImages/work_planner.jpg'
 
 function Projects() {
   return (
-    <div className='container-fluid fluid-container fluid container'>
+    <div className='container-fluid d-flex flex-row flex-wrap justify-content-around'>
       <h1>My Recent Projects</h1>
 
-      <div className='row ' style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+      <div className='row container-fluid d-flex flex-row flex-wrap justify-content-around' style={{ justifyContent: 'center', paddingBottom: '10px' }}>
 
-        <div className='col card-deck' style={{display: 'inline-flex', justifyContent:'space-between'}}>
+        <div className='container-fluid d-flex flex-row flex-wrap justify-content-around'>
         <ProjectCard 
           imgUrl={eCommerceSite}
           isDeployed={true}
@@ -48,9 +48,9 @@ function Projects() {
 
       </div>
 
-      <div className='row card-deck' style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+      <div className='row container-fluid d-flex flex-row flex-wrap justify-content-around' style={{ justifyContent: 'center', paddingBottom: '10px' }}>
 
-      <div className='col card-deck' style={{display: 'inline-flex', justifyContent:'space-between'}}>
+      <div className='container-fluid d-flex flex-row flex-wrap justify-content-around'>
         <ProjectCard
           imgUrl={codeQuiz}
           isDeployed={true}
@@ -79,8 +79,8 @@ function Projects() {
           </div>
 
       </div>
-      <div className='row card-deck' style={{ justifyContent: 'center', paddingBottom: '10px' }}>
-      <div className='col card-deck' style={{display: 'inline-flex', justifyContent:'space-between'}}>
+      <div className='row container-fluid d-flex flex-row flex-wrap justify-content-around' style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+      <div className='container-fluid d-flex flex-row flex-wrap justify-content-around'>
         <ProjectCard
           imgUrl={treasureGame}
           isDeployed={false}

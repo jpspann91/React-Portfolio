@@ -1,13 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5c03511.css",
-    "main.js": "/static/js/main.e51e73d1.js",
-    "index.html": "/index.html",
-    "main.c5c03511.css.map": "/static/css/main.c5c03511.css.map",
-    "main.e51e73d1.js.map": "/static/js/main.e51e73d1.js.map"
+    "main.css": "/React-Portfolio/static/css/main.c5c03511.css",
+    "main.js": "/React-Portfolio/static/js/main.2823466d.js",
+    "static/media/joespann.jpg": "/React-Portfolio/static/media/joespann.fa027de6f4cecf39a095.jpg",
+    "static/media/horiseon.png": "/React-Portfolio/static/media/horiseon.b35b0b6c51889376b617.png",
+    "pdf.worker.js": "/React-Portfolio/e7e915313973ba1d49f9bb2a1998626e.js",
+    "static/media/homepage.png": "/React-Portfolio/static/media/homepage.b548e3617f218d60afe3.png",
+    "static/media/project2.png": "/React-Portfolio/static/media/project2.9f8d9181339c02935cb6.png",
+    "static/media/about.png": "/React-Portfolio/static/media/about.baca89be6dd3858bc7c2.png",
+    "static/media/homepage-bg.jpg": "/React-Portfolio/static/media/homepage-bg.5763d14fd9d41c0f9361.jpg",
+    "static/media/Find-Ya-Pokemon Screenshot.jpg": "/React-Portfolio/static/media/Find-Ya-Pokemon Screenshot.df43c8df9f900fc18a73.jpg",
+    "static/media/Joseph_Spann_Resume.PDF": "/React-Portfolio/static/media/Joseph_Spann_Resume.c89a4d1c0a8b0a3087b1.PDF",
+    "static/media/logo.gif": "/React-Portfolio/static/media/logo.614b60c5b14fc2935107.gif",
+    "static/media/work_planner.jpg": "/React-Portfolio/static/media/work_planner.388b4883528569a8e26e.jpg",
+    "static/media/weather_dashboard.jpg": "/React-Portfolio/static/media/weather_dashboard.aa9a67c0a6dfc416a202.jpg",
+    "static/media/blockchain.jpg": "/React-Portfolio/static/media/blockchain.45ffee5ab5f94eb4a724.jpg",
+    "static/media/password_generator.jpg": "/React-Portfolio/static/media/password_generator.73fb35a20ef6f8a27521.jpg",
+    "static/media/treasuregame.jpg": "/React-Portfolio/static/media/treasuregame.2c89ce111a70eec1229c.jpg",
+    "static/media/code_quiz.jpg": "/React-Portfolio/static/media/code_quiz.991155b2c340148d0a75.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.c5c03511.css.map": "/React-Portfolio/static/css/main.c5c03511.css.map",
+    "main.2823466d.js.map": "/React-Portfolio/static/js/main.2823466d.js.map"
   },
   "entrypoints": [
     "static/css/main.c5c03511.css",
-    "static/js/main.e51e73d1.js"
+    "static/js/main.2823466d.js"
   ]
 }
