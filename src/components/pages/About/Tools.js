@@ -16,8 +16,8 @@ import {
 
 
 const iconStyle = {
-    height: '100px',
-    width: '100px',
+    height: '90px',
+    width: '90px',
     backgroundColor: '#ff5b47',
 }
 

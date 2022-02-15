@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './Resume.css'
 import resumePdf from '../../../Assets/Joseph_Spann_Resume.PDF'
 import { RiDownloadLine } from 'react-icons/ri'
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
@@ -14,28 +15,32 @@ function Resume() {
   }, []);
 
   return (
-    <div className='container-fluid fluid container' style={{ justifyContent: 'center' }}>
-      <div className='row' style={{ justifyContent: 'center', position: 'relative' }}>
-        <button className='btn button' >
-          <RiDownloadLine />
-          <a href={resumePdf} target="_blank" rel="noreferrer" download> &nbsp;Download Resume</a>
+    <div>
+      <div className='resume-container'>
+        <div>
+          <button className='btn dwnld-btn'>
+            <RiDownloadLine />
+            <a href={resumePdf} target="_blank" rel="noreferrer" download> &nbsp;Download Resume</a>
 
-        </button>
-      </div>
-      <div className='row resume' style={{ justifyContent: 'center' }}>
-        <Document file={resumePdf}>
-          <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
-        </Document>
-      </div>
-      <div className='row' style={{ justifyContent: 'center', position: 'relative' }}>
-        <button className='btn button' >
-          <RiDownloadLine />
-          <a href={resumePdf} target="_blank" rel="noreferrer" download> &nbsp;Download Resume</a>
+          </button>
+        </div>
+        <div className='row resume container-fluid'>
+          <div className='col'>
+          <Document file={resumePdf}>
+            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
+          </Document>
+          </div>
+        </div>
+        <div style={{ justifyContent: 'center'}}>
+          <button className='btn dwnld-btn' >
+            <RiDownloadLine />
+            <a href={resumePdf} target="_blank" rel="noreferrer" download> &nbsp;Download Resume</a>
 
-        </button>
-      </div>
+          </button>
+        </div>
 
+      </div>
     </div>
   );
 }

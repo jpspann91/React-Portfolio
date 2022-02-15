@@ -13,8 +13,8 @@ import {
 } from "react-icons/di";
 import { SiHandlebarsdotjs } from "react-icons/si";
 const iconStyle = {
-    height: '100px',
-    width: '100px'
+    height: '90px',
+    width: '90px'
     
 }
 

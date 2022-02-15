@@ -1,4 +1,5 @@
 import React from 'react';
+import './Projects.css'
 import ProjectCard from './ProjectCards';
 
 
@@ -14,8 +15,8 @@ import workdayPlanner from '../../../Assets/ProjectImages/work_planner.jpg'
 
 function Projects() {
   return (
-    <div className='container-fluid d-flex flex-row flex-wrap justify-content-around'>
-      <h1>My Recent Projects</h1>
+    <div className='container-fluid d-flex flex-row flex-wrap justify-content-around projects-container'>
+      <h1 className='green'>My Recent Projects</h1>
 
       <div className='row container-fluid d-flex flex-row flex-wrap justify-content-around' style={{ justifyContent: 'center', paddingBottom: '10px' }}>
 
