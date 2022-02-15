@@ -1,4 +1,5 @@
 import React from "react";
+import './About.css'
 import GitHubCalendar from "react-github-calendar";
 
 function Github() {
@@ -14,7 +15,7 @@ function Github() {
   return (
     <div className='row' style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">Code</strong>
+        Days I <strong className="tomato">Code</strong>
       </h1>
       <GitHubCalendar
         username="jpspann91"

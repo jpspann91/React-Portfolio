@@ -12,19 +12,19 @@ function Footer() {
     let date = new Date();
     let year = date.getFullYear();
     return (
-        <footer className='container-fluid footer' style={{backgroundColor: 'tomato', width: '100%'}}>
+        <footer className='container-fluid footer' style={{backgroundColor: '#2E294E', width: '100%'}}>
             <div className='row'>
                 <div className='col-6'>
-                    <h3>Designed and Developed by Joseph Spann</h3>
+                    <h3 style={{color: '#be97c6'}}>Designed and Developed by Joseph Spann</h3>
                 </div>
-                <div className='col-2'>
+                <div style={{color: '#be97c6'}} className='col-2'>
                     Copyright © {year} JS
                 </div>
                 <div className='col-4'>
                     <ul className='footer-icons nav'style={{listStyleType: "none", display: 'flex inline-block', justifyContent: 'space-between'}}>
                         <li className='social-icons'>
-                            <a href='https://github.com'
-                                style={{ color: "purple" }}
+                            <a href='https://github.com/jpspann91'
+                                style={{ color: "#be97c6" }}
                                 target="_blank"
                                 rel="noopener noreferrer">
                                 <AiFillGithub />
@@ -32,7 +32,7 @@ function Footer() {
                         </li>
                         <li className='social-icons'>
                             <a href='https://gitlab.com/joespann91'
-                                style={{ color: "purple" }}
+                                style={{ color: "#be97c6" }}
                                 target="_blank"
                                 rel="noopener noreferrer">
                                 <AiFillGitlab />
@@ -40,7 +40,7 @@ function Footer() {
                         </li>
                         <li className='social-icons'>
                             <a href='https://www.linkedin.com/in/joseph-spann-12a684140/'
-                                style={{ color: "purple" }}
+                                style={{ color: "#be97c6" }}
                                 target="_blank"
                                 rel="noopener noreferrer">
                                 <AiFillLinkedin />
@@ -48,7 +48,7 @@ function Footer() {
                         </li>
                         <li className='social-icons'>
                             <a href='mailto:joespann91@gmail.com'
-                                style={{ color: "purple" }}
+                                style={{ color: "#be97c6" }}
                                 target="_blank"
                                 rel="noopener noreferrer">
                                 <AiOutlineMail/>
@@ -56,7 +56,7 @@ function Footer() {
                         </li>
                         <li className='social-icons'>
                             <a href='https://stackoverflow.com/users/16654336/joseph-spann'
-                                style={{ color: "purple" }}
+                                style={{ color: "#be97c6" }}
                                 target="_blank"
                                 rel="noopener noreferrer">
                                 <FaStackOverflow />

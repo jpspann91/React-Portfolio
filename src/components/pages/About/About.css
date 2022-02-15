@@ -1,0 +1,33 @@
+.aboutContainer{
+    text-align: center;
+    background-image: linear-gradient(#0B7A75, #8661C1);
+}
+.aboutCardContainer{
+    background-image: linear-gradient(#0B7A75, #8661C1);
+}
+.tech-icons{
+    color: #0B7A75;
+    height: '100px';
+    width: '100px';
+    border: '0';
+}
+.about-activity{
+    color: #ff5b47
+}
+
+.lavendar{
+    color: #BE97C6
+}
+.green{
+    color: #0B7A75
+}
+.tomato{
+    color: #ff5b47
+}
+.tech-card{
+    background-color: #ff5b47
+}
+.icon{
+    height: '100px';
+    width: '100px';
+}

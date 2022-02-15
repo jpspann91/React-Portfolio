@@ -1,0 +1,24 @@
+.nav-item a{
+    
+     /*More padding on L/R then top and bottom*/
+     padding: 5px 10px;
+     /*Set color to variable for cyan*/
+     color: white;
+     /*Margin only on right side*/
+     margin-right: 10px;
+     /*Provide linear gradient background when hovering*/
+     background-image: linear-gradient(#0B7A75, #8661C1);
+     /*does not allow BG image to repeat*/
+     background-repeat: no-repeat;
+     /*Limits background size to just be the bottom section*/
+     
+}
+.nav-item>a:hover{
+     background-image: linear-gradient(#0B7A75, #8661C1);
+     color: #FF5B47;
+     background-size: 100% 0.2em;
+     /*easy way to underline the text in nav bar*/
+     background-position: bottom;
+     /*Transition propeties effects the whole element in 0.5 seconds ease in*/
+     transition: all 0.5s ease-in;
+}

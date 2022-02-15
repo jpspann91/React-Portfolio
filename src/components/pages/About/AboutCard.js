@@ -1,12 +1,13 @@
 import React from 'react';
 import { GiEnergyArrow } from 'react-icons/gi'
+import './About.css'
 
 function AboutCard() {
     return (
-        <div className='card' quote-card-view>
+        <div className='card quote-card-view aboutCardContainer' >
             <div className='card-body'>
                 <blockquote>
-                    <p style={{ textAlign: "justify" }}>
+                    <p style={{ color: 'white', textAlign: "center" }}>
                         Hello, I am <span className="purple">Joseph Spann </span>
                         from <span className="purple"> San Diego, California, USA.</span>I am an aspiring junior software engineer with an associates degree in computer science. Currently I am working completing a cerficate program for full stack development at UCSD extension here in San Diego.
                         <br />
@@ -34,7 +35,7 @@ function AboutCard() {
                         </li>
                     </ul>
 
-                    <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
+                    <p style={{ marginBlockEnd: 0, color: "white" }}>
                         "Optimism is an occupational hazard of programming: feedback is the treatment" {" "}-Kent Beck
                     </p>
 
