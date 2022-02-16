@@ -18,7 +18,7 @@ function Resume() {
     <div>
       <div className='resume-container'>
         <div className='row container-fluid btn-row'>
-          <button type='button' className='btn dwnld-btn'>
+          <button type='button' className='btn' id='dwnld-btn'>
             <RiDownloadLine />
             <a href={resumePdf} target="_blank" rel="noreferrer" download> &nbsp;Download Resume</a>
 
@@ -33,7 +33,7 @@ function Resume() {
           </div>
         </div>
         <div className='row btn-row'>
-          <button type='button' className='btn dwnld-btn' >
+          <button type='button' className='btn' id='dwnld-btn'  >
             <RiDownloadLine />
             <a href={resumePdf} target="_blank" rel="noreferrer" download> &nbsp;Download Resume</a>
 

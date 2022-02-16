@@ -47,7 +47,7 @@ export default function Home() {
             </Tilt>
 
           </div>
-          <div className='col-9'>
+          <div className='col-9' style={{display: 'inline'}}>
             <h1>Hi there!
               <Shake>
                 <span className='wave' role='img' aria-labelledby='wave'>👋🏻</span>

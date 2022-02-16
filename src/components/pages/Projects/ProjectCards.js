@@ -8,7 +8,7 @@ function ProjectCards(props){
             <img className='card-img-top'src={props.imgUrl} alt='card-img'style={{ height:'180px'}}/>
             <div className='card-body' style={{justifyContent:'center'}}>
                 <h5 className='card-title'>{props.title}</h5>
-                <p className='card-text' style={{textAlign: 'center'}}>{props.description}</p>
+                <p className='card-text project-text' style={{textAlign: 'center'}}>{props.description}</p>
 
                 <div className='card-footer d-flex' style={{ position:'absolute', bottom: '0',justifyContent:'space-between', width:'16rem'}}>
 
