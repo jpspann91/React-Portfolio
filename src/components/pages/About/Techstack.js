@@ -23,52 +23,52 @@ function Techstack() {
     return (
         <div className='row' style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <div className="col tech-icons">
-                <div className='card tech-card align-items-center' style={{backgroundColor: '#ff5b47'}}>
+                <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
                     <CgCPlusPlus style={iconStyle}/><p className='card-text'>C++</p>
                 </div>
             </div>
             <div className="col tech-icons">
-                <div className='card tech-card align-items-center' style={{backgroundColor: '#ff5b47'}}>
+                <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
                     <DiJsBadge style={iconStyle}/><p className='card-text'>Javascript</p>
                 </div>
             </div>
             <div className="col tech-icons">
-                <div className='card tech-card align-items-center' style={{backgroundColor: '#ff5b47'}}>
+                <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
                     <DiNodejs style={iconStyle}/><p className='card-text'>Node.js</p>
                 </div>
             </div>
             <div className="col tech-icons">
-                <div className='card tech-card align-items-center' style={{backgroundColor: '#ff5b47'}}>
+                <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
                     <DiReact style={iconStyle}/><p className='card-text'>React.js</p>
                 </div>
             </div>
             <div className="col tech-icons">
-                <div className='card tech-card align-items-center' style={{backgroundColor: '#ff5b47'}}>
+                <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
                     <DiMongodb style={iconStyle}/><p className='card-text'>MongoDB</p>
                 </div>
             </div>
             <div className="col tech-icons">
-                <div className='card tech-card align-items-center' style={{backgroundColor: '#ff5b47'}}>
+                <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
                     <DiJava style={iconStyle}/><p className='card-text'>Java</p>
                 </div>
             </div>
             <div className="col tech-icons">
-                <div className='card tech-card align-items-center' style={{backgroundColor: '#ff5b47'}}>
+                <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
                     <DiGit style={iconStyle}/><p className='card-text'>Github</p>
                 </div>
             </div>
             <div className="col tech-icons">
-                <div className='card tech-card align-items-center' style={{backgroundColor: '#ff5b47'}}>
+                <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
                     <SiHandlebarsdotjs style={iconStyle}/><p className='card-text'>Handlebars.js</p>
                 </div>
             </div>
             <div className="col tech-icons">
-                <div className='card tech-card align-items-center' style={{backgroundColor: '#ff5b47'}}>
+                <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
                     <DiBootstrap style={iconStyle}/><p className='card-text'>Bootstrap</p>
                 </div>
             </div>
             <div className="col tech-icons">
-                <div className='card tech-card align-items-center' style={{backgroundColor: '#ff5b47'}}>
+                <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
                     <DiMysql style={iconStyle}/><p className='card-text'>MySQL</p>
                 </div>
             </div>

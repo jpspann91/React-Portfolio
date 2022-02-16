@@ -28,6 +28,7 @@ function Resume() {
           <div className='col resume'>
           <Document file={resumePdf}>
             <Page pageNumber={1} scale={width > 786 ? 1.4 : 0.6} />
+            <br/>
             <Page pageNumber={2} scale={width > 786 ? 1.4 : 0.6} />
           </Document>
           </div>

@@ -1,5 +1,5 @@
 .profilePic{
-    border-radius: 50%;
+    border-radius: 25%;
 }
 .lavendar{
     color: #BE97C6
@@ -9,4 +9,18 @@
 }
 .tomato{
     color: #ff5b47
+}
+.typewriter{
+    color: #BE97C6;
+    font-size: 24px;
+}
+.intro-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.intro-sentence{
+    justify-self: center;
+    align-self: center;
 }
