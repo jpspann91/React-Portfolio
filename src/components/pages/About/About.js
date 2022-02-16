@@ -10,7 +10,8 @@ const aboutPic = require('../../../Assets/about.png')
 
 export default function About() {
   return (
-    <div className='aboutContainer container'>
+    
+    <div className='aboutContainer'>
       
       <div className='row about-card'>
       <img src={aboutPic} alt='computer science stuff' className='img-fluid'/>

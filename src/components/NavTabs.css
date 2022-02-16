@@ -3,14 +3,13 @@
      /*More padding on L/R then top and bottom*/
      padding: 5px 10px;
      /*Set color to variable for cyan*/
-     color: white;
+     color: #0B7A75;
      /*Margin only on right side*/
      margin-right: 10px;
      /*Provide linear gradient background when hovering*/
      background-image: linear-gradient(#0B7A75, #8661C1);
      /*does not allow BG image to repeat*/
      background-repeat: no-repeat;
-     /*Limits background size to just be the bottom section*/
      
 }
 .nav-item>a:hover{

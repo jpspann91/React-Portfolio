@@ -17,23 +17,23 @@ function Resume() {
   return (
     <div>
       <div className='resume-container'>
-        <div>
-          <button className='btn dwnld-btn'>
+        <div className='row container-fluid btn-row'>
+          <button type='button' className='btn dwnld-btn'>
             <RiDownloadLine />
             <a href={resumePdf} target="_blank" rel="noreferrer" download> &nbsp;Download Resume</a>
 
           </button>
         </div>
-        <div className='row resume container-fluid'>
-          <div className='col'>
+        <div className='row container-fluid'>
+          <div className='col resume'>
           <Document file={resumePdf}>
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-            <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={1} scale={width > 786 ? 1.4 : 0.6} />
+            <Page pageNumber={2} scale={width > 786 ? 1.4 : 0.6} />
           </Document>
           </div>
         </div>
-        <div style={{ justifyContent: 'center'}}>
-          <button className='btn dwnld-btn' >
+        <div className='row btn-row'>
+          <button type='button' className='btn dwnld-btn' >
             <RiDownloadLine />
             <a href={resumePdf} target="_blank" rel="noreferrer" download> &nbsp;Download Resume</a>
 
