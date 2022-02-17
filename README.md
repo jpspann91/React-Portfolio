@@ -39,9 +39,3 @@ n/a
 GitHub: https://github.com/jpspann91
 
 Contact Me: joespann91@gmail.com
-
-
-## Video Walkthrough
-[Screencastify Link](n/a)
-
-[![Watch the video](https://img.youtube.com/vi/n/a/maxresdefault.jpg)](https://youtu.be/n/a)
