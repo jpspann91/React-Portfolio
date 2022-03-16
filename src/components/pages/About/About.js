@@ -14,7 +14,6 @@ export default function About() {
     <div className='aboutContainer'>
       
       <div className='row about-card'>
-      <img src={aboutPic} alt='computer science stuff' className='img-fluid'/>
       <h1>Get to <span className='tomato'>Know</span> Me</h1>
         <AboutCard/>
         
