@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.2584ab40.css",
-    "main.js": "/React-Portfolio/static/js/main.044ae11d.js",
+    "main.css": "/React-Portfolio/static/css/main.c5a483ee.css",
+    "main.js": "/React-Portfolio/static/js/main.636d4bb2.js",
     "static/media/horiseon.png": "/React-Portfolio/static/media/horiseon.b35b0b6c51889376b617.png",
     "pdf.worker.js": "/React-Portfolio/e7e915313973ba1d49f9bb2a1998626e.js",
     "static/media/project2.png": "/React-Portfolio/static/media/project2.9f8d9181339c02935cb6.png",
@@ -18,11 +18,11 @@
     "static/media/treasuregame.jpg": "/React-Portfolio/static/media/treasuregame.2c89ce111a70eec1229c.jpg",
     "static/media/code_quiz.jpg": "/React-Portfolio/static/media/code_quiz.991155b2c340148d0a75.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.2584ab40.css.map": "/React-Portfolio/static/css/main.2584ab40.css.map",
-    "main.044ae11d.js.map": "/React-Portfolio/static/js/main.044ae11d.js.map"
+    "main.c5a483ee.css.map": "/React-Portfolio/static/css/main.c5a483ee.css.map",
+    "main.636d4bb2.js.map": "/React-Portfolio/static/js/main.636d4bb2.js.map"
   },
   "entrypoints": [
-    "static/css/main.2584ab40.css",
-    "static/js/main.044ae11d.js"
+    "static/css/main.c5a483ee.css",
+    "static/js/main.636d4bb2.js"
   ]
 }
