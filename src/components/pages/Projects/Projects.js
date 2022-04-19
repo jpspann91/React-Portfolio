@@ -33,7 +33,7 @@ function Projects() {
         <ProjectCard
           imgUrl={findYaPokemon}
           isDeployed={true}
-          title='Horiseon Code Refractor'
+          title='Find Ya Pokemon'
           description='A fun and simple website built with DOM manipulation. You can look up your favorite pokemon view an image from the official trading card game and find a sprite. You can also build a small team of 6 pokemon with four randomly generated moves'
           deployedLink='https://jmyoung93.github.io/Find-Ya-Pokemon//'
           gitHubRepo='https://github.com/JMYoung93/Find-Ya-Pokemon' />
