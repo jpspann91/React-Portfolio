@@ -5,7 +5,7 @@ import Github from './Github';
 import TechStack from './Techstack';
 import Tools from './Tools';
 
-const aboutPic = require('../../../Assets/about.png') 
+// const aboutPic = require('../../../Assets/about.png') 
 
 
 export default function About() {

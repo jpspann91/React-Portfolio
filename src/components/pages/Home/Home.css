@@ -1,5 +1,6 @@
 .profilePic{
     border-radius: 25%;
+    height: auto
 }
 .lavendar{
     color: #BE97C6
@@ -23,4 +24,5 @@
 .intro-sentence{
     justify-self: center;
     align-self: center;
+    margin-top: 400px !important;
 }

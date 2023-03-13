@@ -1,6 +1,7 @@
 import React, {useState}from "react";
 import emailjs from 'emailjs-com';
 import './Contact.css'
+import PhotoGallery from "./PhotoGallery";
 
 function Contact() {
     const [name, setName] = useState('');
@@ -30,8 +31,7 @@ function Contact() {
     }
 
     const isValidEmail = (email) =>{
-        const regex = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
-        ;
+        const regex = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
         return regex.test(String(email).toLowerCase());
     }
@@ -45,7 +45,11 @@ function Contact() {
             <button id='messageBtn' className='row' onClick={submit}>Send Message</button>
 
             <span id='messageConfirm' className='row'>{emailSent? 'Thank you for your message, we will be in touch in no time!': null}</span>
+            <div className="container">   
+                <PhotoGallery/>
+            </div>
         </div>
+        
     );
 }
 

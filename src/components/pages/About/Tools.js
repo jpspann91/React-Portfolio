@@ -10,10 +10,14 @@ import {
     SiEclipseide,
     SiPowershell,
     SiSlack,
-    SiDiscord
+    SiDiscord,
+    SiMicrosoftteams,
+    SiPostman,
+    SiDocker
 
 } from 'react-icons/si'
 
+import {DiGit} from 'react-icons/di'
 
 const iconStyle = {
     height: '90px',
@@ -67,6 +71,26 @@ function Tools(){
             <div className="col tech-icons">
                 <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
                     <SiPowershell style={iconStyle}/>PowerShell
+                </div>
+            </div>
+            <div className="col tech-icons">
+                <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
+                    <SiMicrosoftteams style={iconStyle}/>Teams
+                </div>
+            </div>
+            <div className="col tech-icons">
+                <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
+                    <DiGit style={iconStyle}/>Git Bash
+                </div>
+            </div>
+            <div className="col tech-icons">
+                <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
+                    <SiPostman style={iconStyle}/>Postman
+                </div>
+            </div>
+            <div className="col tech-icons">
+                <div className='card tech-card align-items-center' style={{backgroundColor: '#0B7A75'}}>
+                    <SiDocker style={iconStyle}/>Docker
                 </div>
             </div>
         </div>

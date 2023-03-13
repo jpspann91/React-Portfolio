@@ -12,6 +12,9 @@ import passwordGenerator from '../../../Assets/ProjectImages/password_generator.
 import treasureGame from '../../../Assets/ProjectImages/treasuregame.jpg'
 import weatherDashboard from '../../../Assets/ProjectImages/weather_dashboard.jpg'
 import workdayPlanner from '../../../Assets/ProjectImages/work_planner.jpg'
+import dbqpro from '../../../Assets/ProjectImages/dbqpro.png'
+import dbqdoc from '../../../Assets/ProjectImages/dbqdoc.png'
+import nexusGDB from '../../../Assets/ProjectImages/nexus.png'
 
 function Projects() {
   return (
@@ -21,7 +24,47 @@ function Projects() {
       <div className='row container-fluid d-flex flex-row flex-wrap justify-content-around' style={{ justifyContent: 'center', paddingBottom: '10px' }}>
 
         <div className='container-fluid d-flex flex-row flex-wrap justify-content-around'>
+        <ProjectCard
+          height='35rem'
+          width='18rem'
+          imgUrl={dbqpro}
+          isDeployed={true}
+          title='DBQPro'
+          description='Web Application built with Python Django framework. Assists US Veterans with increasing their disability benefits with the Department of Veteran Affairs. Gives them a form to fill out which ultimately maps to a PDF. This PDF is the form which they submit to the VA to get an increase in their benefits.'
+          deployedLink='https://dbqpro-development.azurewebsites.net/'
+          gitHubRepo='https://github.com/info-gtmit/DBQPro' />
+
+
+        <ProjectCard
+          height='38rem'
+          width='18rem'
+          imgUrl={dbqdoc}
+          isDeployed={true}
+          title='DBQDoc'
+          description='A Web application built with Python Django framework to give Doctors the ability to revise medical forms filled out by a US Veteran. Gives the US Veteran a better chance of having their disability claim accepted by the VA when signed by a certified doctor. Allows doctors to schedule full body assessments with the US Veteran and certify their claims with the Department of Veteran affairs'
+          deployedLink='https://dbqdoc-develop.azurewebsites.net/'
+          gitHubRepo='https://github.com/info-gtmit/DBQDoc' />
+
+
+        <ProjectCard
+          height='35rem'
+          width='18rem'
+          imgUrl={nexusGDB}
+          isDeployed={true}
+          title='Nexus Game Dashboard'
+          description='An asynchronous turn based game application that allows you to play simple games with your friends. Sign up to play classic games like Tik Tak Toe and Connect 4, challenge your friends and receive notifications when it is your turn to play. Can be used on all mobile devices and computer screens'
+          deployedLink='https://nexus-game-dashboard.herokuapp.com/'
+          gitHubRepo='https://github.com/jpspann91/Project3' />
+          </div>
+
+      </div>
+
+      <div className='row container-fluid d-flex flex-row flex-wrap justify-content-around' style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+
+        <div className='container-fluid d-flex flex-row flex-wrap justify-content-around'>
         <ProjectCard 
+          height='30rem'
+          width='18rem'
           imgUrl={eCommerceSite}
           isDeployed={true}
           title='E-Commerce Site'
@@ -31,6 +74,8 @@ function Projects() {
 
 
         <ProjectCard
+          height='30rem'
+          width='18rem'
           imgUrl={findYaPokemon}
           isDeployed={true}
           title='Find Ya Pokemon'
@@ -40,6 +85,8 @@ function Projects() {
 
 
         <ProjectCard
+          height='30rem'
+          width='18rem'
           imgUrl={blockChain}
           isDeployed={false}
           title='BlockChain Basics'
@@ -53,6 +100,8 @@ function Projects() {
 
       <div className='container-fluid d-flex flex-row flex-wrap justify-content-around'>
         <ProjectCard
+          height='30rem'
+          width='18rem'
           imgUrl={codeQuiz}
           isDeployed={true}
           title='Code Quiz'
@@ -62,6 +111,8 @@ function Projects() {
 
 
         <ProjectCard
+          height='30rem'
+          width='18rem'
           imgUrl={horiseon}
           isDeployed={true}
           title='Horiseon Code Refractor'
@@ -71,6 +122,8 @@ function Projects() {
 
 
         <ProjectCard
+          height='30rem'
+          width='18rem'
           imgUrl={passwordGenerator}
           isDeployed={true}
           title='Password Generator'
@@ -83,6 +136,8 @@ function Projects() {
       <div className='row container-fluid d-flex flex-row flex-wrap justify-content-around' style={{ justifyContent: 'center', paddingBottom: '10px' }}>
       <div className='container-fluid d-flex flex-row flex-wrap justify-content-around'>
         <ProjectCard
+          height='30rem'
+          width='18rem'
           imgUrl={treasureGame}
           isDeployed={false}
           title='Treasure Game'
@@ -91,6 +146,8 @@ function Projects() {
           gitHubRepo='https://github.com/jpspann91/TreasureGame' />
 
         <ProjectCard
+          height='30rem'
+          width='18rem'
           imgUrl={weatherDashboard}
           isDeployed={true}
           title='Weather Dashboard'
@@ -99,6 +156,8 @@ function Projects() {
           gitHubRepo='https://github.com/jpspann91/WeatherDashboard' />
 
         <ProjectCard
+          height='30rem'
+          width='18rem'
           imgUrl={workdayPlanner}
           isDeployed={true}
           title='Workday Planner'

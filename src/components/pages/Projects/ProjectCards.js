@@ -4,9 +4,9 @@ import { CgGitFork, CgWebsite } from 'react-icons/cg'
 
 function ProjectCards(props){
     return (
-        <div className='card d-flex project-card' style={{width:'18rem', height: '30rem'}}>
+        <div className='card d-flex project-card' style={{width:props.width, height: props.height}}>
             <img className='card-img-top'src={props.imgUrl} alt='card-img'style={{ height:'180px'}}/>
-            <div className='card-body' style={{justifyContent:'center'}}>
+            <div className='card-body overflow-auto' style={{justifyContent:'center'}}>
                 <h5 className='card-title'>{props.title}</h5>
                 <p className='card-text project-text' style={{textAlign: 'center'}}>{props.description}</p>
 

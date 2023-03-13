@@ -3,14 +3,16 @@ import Typewriter from 'typewriter-effect'
 // import homeLogo from '../../../Assets/homepage.png'
 import homepageBg from '../../../Assets/homepage-bg.jpg';
 import profilePicture from '../../../Assets/joespann.jpg';
-import Tilt from "react-parallax-tilt";
-import { shake } from 'react-animations';
+// import Tilt from "react-parallax-tilt";
+import { shake, pulse } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
 import './Home.css'
+import LanguageCarousel from './LanguageCarousel'
 
 // const bounceShake = merge(bounce, shake)
 const Shake = styled.div`animation: 2s ${keyframes`${shake}`} infinite`
 
+const Pulse = styled.div`animation: 2s ${keyframes`${pulse}`} infinite`
 
 const styles = {
   color: '#8661C1',
@@ -23,26 +25,21 @@ const styles = {
 }
 
 const typeWriterStrings = [
-  'Junior Software Developer',
-  "MERN Stack Developer",
+  'Full Stack Developer',
+  'MERN/ MEAN Stack Developer',
+  'Django Developer',
   'IT Apprentice',
   'Customer Service Specialist',
   'Nak Muay'
 ]
 
-const languageStrings = [
-  'Javascript', 'HTML', 'CSS',
-  'Java', 'C++', 'MYSQL'
-]
 
 export default function Home() {
   return (
     <section style={styles}>
-      <div className='container-fluid d-flex flex-row flex-wrap'>
-        <div className='row fluid d-flex-flex-row' style={{ justifyContent: 'center' }}>
-
-    {/* <div className='col-4'></div> */}
-          <div className='col-4 align-self-center'>
+      <div className='container-fluid d-flex flex-row flex-wrap justify-content-center'>
+        <div className='mt-5 row fluid d-flex-flex-row align-items-center' style={{ justifyContent: 'center' }}>
+          <div className='col-4'>
             <h1>Hi there!
               <Shake>
                 👋🏻
@@ -57,15 +54,15 @@ export default function Home() {
                   strings: typeWriterStrings,
                   autoStart: true,
                   loop: true,
-                  deleteSpeed: 65,
+                  deleteSpeed: 75,
                   cursor: '|'
                 }} />
             </span>
           </div>
-          <div className='col-4'>
-            <Tilt>
+          <div className='col-6'>
+            <Pulse>
               <img src={profilePicture} className="img-fluid profilePic" alt="myself" />
-            </Tilt>
+            </Pulse>
 
           </div>
 
@@ -76,36 +73,30 @@ export default function Home() {
         </div>
 
           <br/><br/>
-        <div className='row d-flex flex-row flex-wrap intro-container'>
+        <div className='mt-5 row d-flex flex-row flex-wrap intro-container'>
 
-          <div className='col-2'></div>
-          <div className='col-8 intro-sentence'>
-            <h1>LET ME <span className='tomato'>INTRODUCE</span> MYSELF</h1>
-            <p className='intro-para'>I am currently seeking to become a Junior software engineer. As a developer I like to venture into current technologies and build interesting and productive applications for everyday use
+          
+          <div className='border border-dark col-6 shadow-lg rounded p-3 mb-5 intro-sentence'>
+            <h1><span className='tomato'>ABOUT</span> ME</h1>
+            <p className='intro-para'>Currently a Full Stack Develop for Global Tek Med IT. 
+            GTMIT specializes in assisting US Veterans with increasing their disability rating with the VA, creating a better future for those who fought to preserve it.  
+            As a developer with 10+ years of customer service experience, I have great communications skills and I develop with the client in mind first. 
+            I work to develop applications and automations that are intuitive to use, and help reduce the cost of day to day business needs. 
 
               <br />
               <br />
               I have experience coding with {" "}
               <i>
-                <b className='lavendar'>
-                  <Typewriter
-                    options={{
-                      strings: languageStrings,
-                      autoStart: true,
-                      loop: true,
-                      deleteSpeed: 65,
-                      cursor: '🖥️'
-                    }} />
-                </b>
+                <LanguageCarousel></LanguageCarousel>
               </i>
               <br />
               <i>
                 <p>
-                  My field of interest are completely open to anything at this time. I would love to get into <span className='lavendar'>Mobile Development </span> and I have experience with both front end and back-end devleopment practices.
+                  I have experience in multiple development stacks at this time. 
+                  I have experience with React.js and the MERN stack as well as experience with Angular.js and the MEAN stack. 
+                  Additionally, I currently develop using Python with the Django framework. 
                 </p>
-              </i>
-              <i>
-                <p>I enjoy building dependable applications with moder frameworks such as <span className='tomato'>Express.js, Node.js, React.js </span> and many other frameworks</p>
+                <p>I enjoy building dependable and scalable applications with modern frameworks that are up to standard with todays industry</p>
               </i>
             </p>
           </div>
