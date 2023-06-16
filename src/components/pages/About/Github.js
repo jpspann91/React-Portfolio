@@ -24,7 +24,7 @@ function Github() {
         theme={colourTheme}
         fontSize={15}
       />
-          <GitHubCalendar
+        <GitHubCalendar
         username="joespanngtmit"
         blockSize={15}
         blockMargin={5}
