@@ -24,6 +24,13 @@ function Github() {
         theme={colourTheme}
         fontSize={15}
       />
+          <GitHubCalendar
+        username="joespanngtmit"
+        blockSize={15}
+        blockMargin={5}
+        theme={colourTheme}
+        fontSize={15}
+      />
       <p style={{ color: 'white', textAlign: "center" }}>
         I currently work full time, so I have not had much to develop on my personal github account. I hope to be able to free up some time in the future to allow me to do this.
       </p>
