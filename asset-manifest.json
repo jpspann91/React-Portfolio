@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.d5837be6.css",
-    "main.js": "/React-Portfolio/static/js/main.16dd3002.js",
+    "main.css": "/React-Portfolio/static/css/main.742f1af7.css",
+    "main.js": "/React-Portfolio/static/js/main.eebc8a2b.js",
     "static/media/ph3.jpg": "/React-Portfolio/static/media/ph3.5e93de4061c3ef2589a5.jpg",
     "static/media/ph4.jpg": "/React-Portfolio/static/media/ph4.250b3fde6bc10583a080.jpg",
     "static/media/ph1.jpg": "/React-Portfolio/static/media/ph1.c4d4589cdd0ad4087334.jpg",
@@ -29,29 +29,30 @@
     "static/media/ph23.JPG": "/React-Portfolio/static/media/ph23.1e7f97944ee7d9168377.JPG",
     "static/media/ph22.JPG": "/React-Portfolio/static/media/ph22.569b549fe176d06a7a30.JPG",
     "static/media/ph21.JPG": "/React-Portfolio/static/media/ph21.3b23c4ee4a2f67931e3f.JPG",
-    "static/media/horiseon.png": "/React-Portfolio/static/media/horiseon.b35b0b6c51889376b617.png",
     "pdf.worker.js": "/React-Portfolio/fba171de7bad31878d85d80a4083a09d.js",
     "static/media/project2.png": "/React-Portfolio/static/media/project2.9f8d9181339c02935cb6.png",
     "static/media/Find-Ya-Pokemon Screenshot.jpg": "/React-Portfolio/static/media/Find-Ya-Pokemon Screenshot.df43c8df9f900fc18a73.jpg",
-    "static/media/joespann.jpg": "/React-Portfolio/static/media/joespann.e0f16241cca5c2e456df.jpg",
-    "static/media/Joseph_Spann_Resume.PDF": "/React-Portfolio/static/media/Joseph_Spann_Resume.22b1d190042ad3ddda28.PDF",
+    "static/media/gtmforms.png": "/React-Portfolio/static/media/gtmforms.5b10c9d3f6e5ce6b55ea.png",
+    "static/media/Joseph_Spann_Resume.PDF": "/React-Portfolio/static/media/Joseph_Spann_Resume.9595b36f7e46b3e64aef.PDF",
     "static/media/logo.gif": "/React-Portfolio/static/media/logo.614b60c5b14fc2935107.gif",
-    "static/media/work_planner.jpg": "/React-Portfolio/static/media/work_planner.388b4883528569a8e26e.jpg",
+    "static/media/HelpPortal.png": "/React-Portfolio/static/media/HelpPortal.cdfa504c5af92502b193.png",
     "static/media/weather_dashboard.jpg": "/React-Portfolio/static/media/weather_dashboard.aa9a67c0a6dfc416a202.jpg",
     "static/media/dbqpro.png": "/React-Portfolio/static/media/dbqpro.49899b0245cf32ecd99b.png",
     "static/media/blockchain.jpg": "/React-Portfolio/static/media/blockchain.45ffee5ab5f94eb4a724.jpg",
-    "static/media/homepage-bg.jpg": "/React-Portfolio/static/media/homepage-bg.afd6cd9b79e15b5bf98f.jpg",
-    "static/media/password_generator.jpg": "/React-Portfolio/static/media/password_generator.73fb35a20ef6f8a27521.jpg",
+    "static/media/background.jpg": "/React-Portfolio/static/media/background.cba8629f645d7f7cab7c.jpg",
     "static/media/treasuregame.jpg": "/React-Portfolio/static/media/treasuregame.2c89ce111a70eec1229c.jpg",
+    "static/media/DbqClinic.png": "/React-Portfolio/static/media/DbqClinic.c2d75f035759186d6407.png",
     "static/media/code_quiz.jpg": "/React-Portfolio/static/media/code_quiz.991155b2c340148d0a75.jpg",
+    "static/media/paqap.png": "/React-Portfolio/static/media/paqap.fe75bd8f2100e58ce3f1.png",
     "static/media/dbqdoc.png": "/React-Portfolio/static/media/dbqdoc.352971547788d983909b.png",
     "static/media/nexus.png": "/React-Portfolio/static/media/nexus.8d8c0831554c9cafa3eb.png",
+    "static/media/multiform.png": "/React-Portfolio/static/media/multiform.63922c52aab26d28bfc4.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.d5837be6.css.map": "/React-Portfolio/static/css/main.d5837be6.css.map",
-    "main.16dd3002.js.map": "/React-Portfolio/static/js/main.16dd3002.js.map"
+    "main.742f1af7.css.map": "/React-Portfolio/static/css/main.742f1af7.css.map",
+    "main.eebc8a2b.js.map": "/React-Portfolio/static/js/main.eebc8a2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5837be6.css",
-    "static/js/main.16dd3002.js"
+    "static/css/main.742f1af7.css",
+    "static/js/main.eebc8a2b.js"
   ]
 }
